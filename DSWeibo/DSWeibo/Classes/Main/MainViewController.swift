@@ -12,8 +12,25 @@ class MainViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tabBar.tintColor = UIColor.orangeColor()
 
-        // Do any additional setup after loading the view.
+        addChildViewController(HomeTableViewController(), title: "首页", imageName: "tabbar_home")
+        addChildViewController(MessageTableViewController(), title: "消息", imageName: "tabbar_message_center")
+        addChildViewController(DiscoverTableViewController(), title: "发现", imageName: "tabbar_discover")
+        addChildViewController(ProfileTableViewController(), title: "我", imageName: "tabbar_profile")
+    }
+    
+    private func addChildViewController(childViewController:UITableViewController,title:String,imageName:String){
+        
+        childViewController.tabBarItem.image = UIImage(named: imageName)
+        childViewController.tabBarItem.selectedImage = UIImage(named: imageName+"_highlighted")
+        
+        childViewController.title = title
+        let nav = UINavigationController()
+        nav.addChildViewController(childViewController)
+        
+        addChildViewController(nav)
     }
 
     override func didReceiveMemoryWarning() {

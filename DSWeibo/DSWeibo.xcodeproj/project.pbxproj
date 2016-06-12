@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		49206C911D0D8E14000B79D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49206C901D0D8E14000B79D9 /* AppDelegate.swift */; };
-		49206C931D0D8E14000B79D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49206C921D0D8E14000B79D9 /* ViewController.swift */; };
 		49206C981D0D8E14000B79D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49206C971D0D8E14000B79D9 /* Assets.xcassets */; };
 		49206CA61D0D8E14000B79D9 /* DSWeiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49206CA51D0D8E14000B79D9 /* DSWeiboTests.swift */; };
 		49206CB11D0D8E14000B79D9 /* DSWeiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49206CB01D0D8E14000B79D9 /* DSWeiboUITests.swift */; };
@@ -39,7 +38,6 @@
 /* Begin PBXFileReference section */
 		49206C8D1D0D8E14000B79D9 /* DSWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49206C901D0D8E14000B79D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49206C921D0D8E14000B79D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		49206C971D0D8E14000B79D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49206C9C1D0D8E14000B79D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49206CA11D0D8E14000B79D9 /* DSWeiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSWeiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,7 +103,6 @@
 			children = (
 				49206C901D0D8E14000B79D9 /* AppDelegate.swift */,
 				49206CBE1D0D948B000B79D9 /* Classes */,
-				49206C921D0D8E14000B79D9 /* ViewController.swift */,
 				49206C971D0D8E14000B79D9 /* Assets.xcassets */,
 				49206C9C1D0D8E14000B79D9 /* Info.plist */,
 			);
@@ -333,7 +330,6 @@
 				49206CCF1D0D960A000B79D9 /* ProfileTableViewController.swift in Sources */,
 				49206CC91D0D9581000B79D9 /* HomeTableViewController.swift in Sources */,
 				49206CC71D0D9542000B79D9 /* MainViewController.swift in Sources */,
-				49206C931D0D8E14000B79D9 /* ViewController.swift in Sources */,
 				49206CCB1D0D95C0000B79D9 /* DiscoverTableViewController.swift in Sources */,
 				49206CCD1D0D95F1000B79D9 /* MessageTableViewController.swift in Sources */,
 				49206C911D0D8E14000B79D9 /* AppDelegate.swift in Sources */,
